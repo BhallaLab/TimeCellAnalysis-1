@@ -55,7 +55,7 @@ All these functions should be run from the cloned repository, TimeCellAnalysis.
 | dodFbF.m | Utility function to convert experimental 2P data output from Suite2P to df by f form. | Utility function, not run from command line | rho-matlab/<br>CustomFunctions | Matlab |
 
 ## Generating Paper Figures
-All these functions should be run from the cloned repository, TimeCellAnalysis/rho-matlab/paperFigures.
+All these functions should be run from the cloned repository, TimeCellAnalysis/rho-matlab/paperFigures. These will need a working copy of Matlab(TM)
 One first generates the csv files with the output of the time-cell analysis using the function described above: run_batch_analysis.py
 Subsequent analysis and paper figures are generated using the following functions.
 
@@ -83,7 +83,7 @@ Subsequent analysis and paper figures are generated using the following function
 
 
 ## Installation:
-	pip install TimeCellAnalysis
+	pip install TCAnalysis
 
 Following this command, the actual files will be placed in
 
